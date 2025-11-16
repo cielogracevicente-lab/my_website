@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science - Course Overview & Subjects</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <button id="theme-toggle">🌙 Dark Mode</button>
+
+    <div class="wrap" role="document">
+        <header role="banner" aria-label="Computer Science header">
+            <div>
+                <h1>Computer Science (Course Overview)</h1>
+                <p class="lead">An Introduction to core subjects, short meanings, and why Computer Science matter in college.</p>
+            </div>
+        </header>
+        <main>
+            <section class="card" aria-labelledby="about heading">
+                <h2 id="about-heading">About the Computer Science Course</h2>
+                <p class="lead">
+                    A Computer Science degree teaches how computers solve problems. You learn programming, how software and hardware work, algorithms, data organzation, and how to design systems that help people or businesses.
+                </p>
+
+                <h2 style="margin-top:14px">Core Subjects</h2>
+                <input type="text" id="searchInput" placeholder="Search subjects..." />
+                <div class="subjects" id="subjects">
+                    <article class="subject" id="s1" aria-labelledby="s1t">
+                        <h3 id="s1t">Programming Fundamentals</h3>
+                        <p class="short">Learn the basics of writing programs using a programming language (variables, loops, functions).</p>
+                        <button class="toggle" aria-expanded="false" aria-controls="s1d">Show more</button>
+                        <div id="s1d" hidden>
+                            <p>
+                                Students practice problem-solving using code (often Phyton, Java, or C++). This subject teaches logic, syntax, and designing small programs.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Computer_programming" target="_blank">Programming Fundamentals</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s2" aria-labelledby="s2t">
+                        <h3 id="s2t">Data Structures & Algorithms</h3>
+                        <p class="short">Organizing data (lists, trees, graphs) and methods to solve problems effeciently.</p>
+                        <button class="toggle" aria-expanded="false" aria-controls="s2d">Show more</button>
+                        <div id="s2d" hidden>
+                            <p>
+                                Learning sorting, searching, recursion, and performance analysis - essential for writing fast, scalable programs.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Data_structure" target="_blank">Data Structures & Algorithms</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s3" aria-labelledby="s3t">
+                        <h3 id="s3t">Computer Architecture</h3>
+                        <p class="short">How hardware (CPU, memory) executes instructions and supports software.</p>
+                        <button class="toggle" aria-expanded="false" aria-controls="s3d">Show more</button>
+                        <div id="s3d" hidden>
+                            <p>
+                                Covers processors, machine code, memory hierarchy, and performance optimization.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Computer_architecture" target="_blank">Computer Architecture</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s4" aria-labelledby="s4t">
+                        <h3 id="s4t">Operating Systems</h3>
+                        <p class="short">Manages memory, files, and running programs (Windows, Linux, etc.)</p> 
+                        <button class="toggle" aria-expanded="false" aria-controls="s4d">Show more</button>
+                        <div id="s4d" hidden>
+                            <p>
+                                Topics include process scheduling, concurrency, file systems, and security.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Operating_system" target="_blank">Operating Systems</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s5" aria-labelledby="s5t">
+                        <h3 id="s5t">Databases</h3>
+                        <p class="short">How information is stored, organized, and retrieved (SQL, NoSQL).</p> 
+                        <button class="toggle" aria-expanded="false" aria-controls="s5d">Show more</button>
+                        <div id="s5d" hidden>
+                            <p>
+                                Learn schema design, queries, indexing, and data consistency for applications.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Database" target="_blank">Databases</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s6" aria-labelledby="s6t">
+                        <h3 id="s6t">Software Engineering</h3>
+                        <p class="short">Principles for building reliable software: design, testing, teamwork.</p> 
+                        <button class="toggle" aria-expanded="false" aria-controls="s6d">Show more</button>
+                        <div id="s6d" hidden>
+                            <p>
+                                Includes agile methods, project `management, version control, and quality assurance.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Software_engineering" target="_blank">Software Engineering</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s7" aria-labelledby="s7t">
+                        <h3 id="s7t">Computer Networks</h3>
+                        <p class="short">How computers connect and share data across the internet.</p> 
+                        <button class="toggle" aria-expanded="false" aria-controls="s7d">Show more</button>
+                        <div id="s7d" hidden>
+                            <p>
+                                Study protocols, routing, IP addressing, and secure communication.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Computer_network" target="_blank">Computer Networks</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s8" aria-labelledby="s8t">
+                        <h3 id="s8t">Artificial Intelligence & Machine Learning</h3>
+                        <p class="short">Algorithms that learn from data and make predictions.</p> 
+                        <button class="toggle" aria-expanded="false" aria-controls="s8d">Show more</button>
+                        <div id="s8d" hidden>
+                            <p>
+                                Includes neural networks, supervised learning, and real-world applications like image recognition.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">Artificial Intelligence & Machine Learning</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s9" aria-labelledby="s9t">
+                        <h3 id="s9t">Computer Networks</h3>
+                        <p class="short">Protecting systems, networks, and data from attacks.</p> 
+                        <button class="toggle" aria-expanded="false" aria-controls="s9d">Show more</button>
+                        <div id="s9d" hidden>
+                            <p>
+                                Learn encryption, secure coding, risk management, and defending against cyber threats.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Computer_security" target="_blank">Cybersecurity</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s10" aria-labelledby="s10t">
+                        <h3 id="s10t">Human-Computer Interaction</h3>
+                        <p class="short">Designing user-friendly and accessible interfaces.</p>
+                        <button class="toggle" aria-expanded="false" aria-controls="s10d">Show more</button>
+                        <div id="s10d" hidden>
+                            <p>
+                                Focus on usability, design principles, and user experience in apps and websites.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction" target="_blank">Human-Computer Interaction</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s11" aria-labelledby="s11t">
+                        <h3 id="s11t">Theory of Computation</h3>
+                        <p class="short">The foundations of what computers can and cannot do.</p>
+                        <button class="toggle" aria-expanded="false" aria-controls="s11d">Show more</button>
+                        <div id="s11d" hidden>
+                            <p>
+                                Includes automata, languages, Turing machines, and computational complexity.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Theory_of_computation" target="_blank">Theory of Computation</a>
+                        </div>
+                    </article>
+
+                    <article class="subject" id="s12" aria-labelledby="s12t">
+                        <h3 id="s12t">Capstone or Thesis</h3>
+                        <p class="short">A final project where students apply all their skills.</p>
+                        <button class="toggle" aria-expanded="false" aria-controls="s12d">Show more</button>
+                        <div id="s12d" hidden>
+                            <p>
+                                Students build a real system — web apps, mobile apps, or research projects — to demonstrate mastery.
+                            </p>
+                        <a href="https://en.wikipedia.org/wiki/Capstone_course" target="_blank">Capstone Project</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <h2 id="skills">Skills Learned in Computer Science</h2>
+<div class="skills-container">
+
+  <div class="skill">Problem Solving</div>
+  <div class="skill">Critical Thinking</div>
+  <div class="skill">Programming Skills</div>
+  <div class="skill">Algorithmic Thinking</div>
+  <div class="skill">Debugging & Troubleshooting</div>
+  <div class="skill">Database Management</div>
+  <div class="skill">Cybersecurity Awareness</div>
+  <div class="skill">Networking Fundamentals</div>
+  <div class="skill">Project Management</div>
+  <div class="skill">Team Collaboration</div>
+  <div class="skill">System Analysis & Design</div>
+  <div class="skill">Web Development</div>
+  <div class="skill">Software Documentation</div>
+  <div class="skill">User Interface Design</div>
+  <div class="skill">Machine Learning Basics</div>
+
+</div>
+
+
+            <aside class="card" aria-labelledby="importance-heading">
+                <h2 id="importance-heading">Why Computer Science Matters in College?</h2>
+                <p class="lead">Studying Computer Science gives students skills that are widely useful and in demand:</p>
+                <ul class="importance">
+                    <li><strong>Problem Solving:</strong> Learn a Logical approach to break down complex problems.</li>
+                    <li><strong>High demand careers:</strong> Software, data science, cybersecurity, research, and more.</li>
+                    <li><strong>Innovation & Impact:</strong> Build tools and services that improve lives and businesses.</li>
+                    <li><strong>Versality:</strong> Skills apply to finance, health, education, entertainment, and other fields.</li>
+                    <li><strong>Collaboration:</strong> Work in teams, manage projects, and deliver real systems.</li>
+                </ul>
+            </aside>
+        </main>
+
+    <h1>Career Paths in Computer Science</h1>
+
+<div class="career-container">
+
+    <div class="career">
+        <h4>Software Developer</h4>
+        <p>Designs, builds, and maintains applications for computers and mobile devices.</p>
+    </div>
+
+    <div class="career">
+        <h4>Web Developer</h4>
+        <p>Creates and maintains websites using front-end and back-end technologies.</p>
+    </div>
+
+    <div class="career">
+        <h4>Data Analyst</h4>
+        <p>Collects, analyzes, and interprets data to help organizations make decisions.</p>
+    </div>
+
+    <div class="career">
+        <h4>Cybersecurity Specialist</h4>
+        <p>Protects digital systems from hacking, data breaches, and cyber attacks.</p>
+    </div>
+
+    <div class="career">
+        <h4>Network Administrator</h4>
+        <p>Manages computer networks and ensures smooth communication between devices.</p>
+    </div>
+
+    <div class="career">
+        <h4>AI & Machine Learning Engineer</h4>
+        <p>Builds intelligent systems that learn and adapt from data.</p>
+    </div>
+
+    <div class="career">
+        <h4>Database Administrator</h4>
+        <p>Responsible for storing, organizing, and securing company data.</p>
+    </div>
+
+    <div class="career">
+        <h4>IT Support Specialist</h4>
+        <p>Provides technical assistance and solves computer-related issues.</p>
+    </div>
+
+</div>
+
+
+        <footer role="contentinfo">
+        <p><span id="year">Computer Science Guide * Simple overview for learning and study.</span></p>
+        </footer>
+    </div>
+
+    <script>
+        document.querySelectorAll('.subject').forEach(function(card){
+            var btn = card.querySelector('button.toggle');
+            var detailsId = btn.getAttribute('aria-controls');
+            var details = document.getElementById(detailsId);
+
+            btn.addEventListener('click', function(){
+                var expanded = btn.getAttribute('aria-expanded') === 'true';
+                if (expanded){
+                    details.hidden = true;
+                    btn.setAttribute('aria-expanded', 'false');
+                    btn.textContent = 'Show more';
+                } else {
+                    details.hidden = false;
+                    btn.setAttribute('aria-expanded', 'true');
+                    btn.textContent = 'Show less';
+                }
+            });
+        });
+    </script>
+
+    <script>
+  const toggleBtn = document.getElementById("theme-toggle");
+
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+      toggleBtn.textContent = "☀️ Light Mode";
+    } else {
+      toggleBtn.textContent = "🌙 Dark Mode";
+    }
+  });
+</script>
+
+<script>
+  const searchInput = document.getElementById("searchInput");
+
+  searchInput.addEventListener("keyup", function () {
+    const filter = searchInput.value.toLowerCase();
+    const subjects = document.querySelectorAll(".subject");
+
+    subjects.forEach(subject => {
+      const text = subject.textContent.toLowerCase();
+      if (text.includes(filter)) {
+        subject.style.display = "block";
+      } else {
+        subject.style.display = "none";
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
